@@ -31,8 +31,17 @@ export function CvSection() {
           </div>
         </div>
         <p className="text-[11px] text-slate-500">
-          A full, bilingual CV (BG/EN) will be linked here later as downloadable PDF and a detailed page.
-        </p>
+  Full CV is available as PDF:{" "}
+  <a href="/Anton-CV.pdf" className="text-gold hover:underline">
+    English
+  </a>{" "}
+  ·{" "}
+  <a href="/Anton-CV-BG.pdf" className="text-gold hover:underline">
+    Bulgarian
+  </a>
+  .
+</p>
+
       </div>
     </section>
   );

@@ -17,19 +17,21 @@ export function Hero() {
             and performance checks with a practical, business-first mindset.
           </p>
           <div className="flex flex-wrap gap-3 mb-6">
-            <Link
-              href="#projects"
-              className="px-4 py-2 rounded-full bg-gold text-slate-950 text-xs font-semibold shadow-soft-xl hover:brightness-110 transition"
-            >
-              View QA Projects
-            </Link>
-            <Link
-              href="#cv"
-              className="px-4 py-2 rounded-full border border-slate-600 text-slate-100 text-xs hover:border-gold hover:text-gold transition"
-            >
-              Download CV (soon)
-            </Link>
-          </div>
+  <Link
+    href="#projects"
+    className="px-4 py-2 rounded-full bg-gold text-slate-950 text-xs font-semibold shadow-soft-xl hover:brightness-110 transition"
+  >
+    View QA Projects
+  </Link>
+
+  <a
+    href="/Anton-CV.pdf"
+    className="px-4 py-2 rounded-full border border-slate-600 text-slate-100 text-xs hover:border-gold hover:text-gold transition"
+  >
+    Download CV (PDF)
+  </a>
+</div>
+
           <div className="flex flex-wrap gap-3 text-[11px] text-slate-400">
             <span className="px-3 py-1 rounded-full border border-slate-700/80">Selenium / Playwright</span>
             <span className="px-3 py-1 rounded-full border border-slate-700/80">C# / .NET</span>
